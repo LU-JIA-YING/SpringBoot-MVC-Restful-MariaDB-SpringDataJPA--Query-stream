@@ -31,7 +31,7 @@
 ---
 --- 使用 findAll() 將 user 資料從 DB 撈出後，使用 stream 進行操作以及過濾
   
-* 取得一個 list 只有 name，且不重複並排序的資料   
+* 取得一個 list 只有 name，且不重複並排序的資料  
   * EX:[Bill, Brian, KZ]  
 http://localhost:8080/stream/user/getAllName
 
