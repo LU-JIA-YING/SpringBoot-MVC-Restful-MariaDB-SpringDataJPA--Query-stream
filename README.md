@@ -16,11 +16,11 @@
 
 * 查詢大於等於某個age的資料 http://localhost:8080/api/v1/user/getAge?age=21
 * 查詢某個age的資料進行比大小 http://localhost:8080/api/v1/user/getAge2?age=37&ageFilter=1
-* 根據age排序 
+* 根據age排序   
 ->倒敘 http://localhost:8080/api/v1/user/ageSort?age=-1&ageFilter=&sorted=desc  
 ->順序 http://localhost:8080/api/v1/user/ageSort?age=-1&ageFilter=&sorted=asc  
 
-======================查詢的資料無法使用 JPA 命名規則，使用原生 SQL 語法====================================
+==================查詢的資料無法使用 JPA 命名規則，使用原生 SQL 語法===============================
 
 * 根據name和age查詢資料 http://localhost:8080/practice/user?name=Maggie&age=23
 * 用SQL新增一個 user資料 http://localhost:8080/practice/user
