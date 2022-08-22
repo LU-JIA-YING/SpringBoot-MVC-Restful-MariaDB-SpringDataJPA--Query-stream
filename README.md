@@ -1,4 +1,4 @@
-# SpringBoot-MVC-Restful-MariaDB-SpringDataJPA--Query-stream
+# SpringBoot-MVC-Restful-MariaDB-SpringDataJPA-Query-stream
 
 #### H2-Database：http://localhost:8080/h2-console
 * spring.datasource.url=jdbc:mariadb://localhost:3306/user
