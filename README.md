@@ -1,12 +1,12 @@
-# SpringBoot-MVC-Restful-MariaDB-SpringDataJPA-Query-stream
+# SpringBoot-MVC-Restful-MariaDB-SpringDataJPA-@Query-stream
 
-#### H2-Database：http://localhost:8080/h2-console
+#### MariaDB：
 * spring.datasource.url=jdbc:mariadb://localhost:3306/user
 * spring.datasource.driverClassName=org.mariadb.jdbc.Driver
 * spring.datasource.username=root
 * spring.datasource.password=sa
 
-#### spring-restcontroller-DemoUser:
+#### spring-restcontroller-DemoUser：
 
 * 取得所有使用者 http://localhost:8080/api/v1/user  
 * 根據ID取得使用者 http://localhost:8080/api/v1/user/:id  
@@ -32,11 +32,11 @@
 --- 使用 findAll() 將 user 資料從 DB 撈出後，使用 stream 進行操作以及過濾
   
 * 取得一個 list 只有 name，且不重複並排序的資料    
-EX : [Bill, Brian, KZ]  
+EX： [Bill, Brian, KZ]  
 http://localhost:8080/stream/user/getAllName
 
 * 取得一個 map，其 key 為 ID；value 為 name     
-EX : 1 : “Bill”   
+EX： 1 : “Bill”   
 http://localhost:8080/stream/user/getMapAndIdName
 
 * 取得第一筆 name = KZ 的資料   
@@ -46,5 +46,5 @@ http://localhost:8080/stream/user/getFirstEqualName
 http://localhost:8080/stream/user/getOrderByAgeAndId
 
 * 取得一個 string 為所有資料的 name, age|name, age  
-EX : Bill, 13|KZ, 23   
+EX： Bill, 13|KZ, 23   
 http://localhost:8080/stream/user/getAllByStringNameAndAge
