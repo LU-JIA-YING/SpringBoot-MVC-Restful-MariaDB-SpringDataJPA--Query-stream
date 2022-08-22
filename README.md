@@ -45,6 +45,6 @@ http://localhost:8080/stream/user/getFirstEqualName
 * 將資料先依據 age 排序，再依據 ID 排序   
 http://localhost:8080/stream/user/getOrderByAgeAndId
 
-* 取得一個 string 為所有資料的 name, age|name, age 
+* 取得一個 string 為所有資料的 name, age|name, age  
 EX:Bill, 13|KZ, 23   
 http://localhost:8080/stream/user/getAllByStringNameAndAge
