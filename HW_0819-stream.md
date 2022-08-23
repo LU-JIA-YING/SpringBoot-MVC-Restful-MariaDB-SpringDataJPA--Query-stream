@@ -92,4 +92,4 @@ public String getAllByStringNameAndAge() {
 ```
 
 ---
-* [Spring Boot - MariaDB、Spring Data JPA](https://hackmd.io/@IDdlPCCwQoeX-9DvmEbLyw/rylcdypRc)
+* [Spring Boot - MariaDB、Spring Data JPA、@Query、stream](https://hackmd.io/@IDdlPCCwQoeX-9DvmEbLyw/rylcdypRc)
